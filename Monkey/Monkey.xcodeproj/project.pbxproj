@@ -88,6 +88,7 @@
 		0A42AC3C1B7B176200A861B3 /* PrefixFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixFile.h; sourceTree = "<group>"; };
 		0A4C70151B7B7F1800446C18 /* UserRankViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRankViewModel.h; sourceTree = "<group>"; };
 		0A4C70161B7B7F1800446C18 /* UserRankViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRankViewModel.m; sourceTree = "<group>"; };
+		0AAF8AE71B7E52EA00776D83 /* Monkey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Monkey.entitlements; sourceTree = "<group>"; };
 		0AB7CA3A1B7AF7C40058FEBE /* Monkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB7CA3E1B7AF7C40058FEBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AB7CA3F1B7AF7C40058FEBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -298,6 +299,7 @@
 		0AB7CA3C1B7AF7C40058FEBE /* Monkey */ = {
 			isa = PBXGroup;
 			children = (
+				0AAF8AE71B7E52EA00776D83 /* Monkey.entitlements */,
 				0AB7CA3F1B7AF7C40058FEBE /* AppDelegate.h */,
 				0AB7CA401B7AF7C40058FEBE /* AppDelegate.m */,
 				0AB7CA441B7AF7C40058FEBE /* Images.xcassets */,
@@ -415,6 +417,12 @@
 				TargetAttributes = {
 					0AB7CA391B7AF7C40058FEBE = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 8SVULEH9N6;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					0AB7CA4C1B7AF7C40058FEBE = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -616,6 +624,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Monkey/Monkey.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREFIX_HEADER = "Monkey/Monkey-Prefix.h";
 				INFOPLIST_FILE = Monkey/Info.plist;
@@ -628,6 +638,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Monkey/Monkey.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREFIX_HEADER = "Monkey/Monkey-Prefix.h";
 				INFOPLIST_FILE = Monkey/Info.plist;
