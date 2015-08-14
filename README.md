@@ -2,7 +2,7 @@
 
 
 
-Monkey是一个GitHub第三方Mac客户端，Monkey取名就是表示我们程序猿的意思。
+Monkey是一个GitHub第三方Mac客户端，Monkey取名就是表示我们程序猿的意思,当然Monkey还有iOS client。
 
  
 
@@ -40,7 +40,7 @@ Monkey主要是用来展示GitHub上的开发者的排名，以及仓库的排�
 ARC ready Networking Framework with built in authentication and HTTP 1.1 caching standards support for iOS 5+ devices
 
 
-[OTWebImage](https://github.com/rs/SDWebImage)
+[OTWebImage](https://github.com/OpenFibers/OTWebImage)
 
 Asynchronous image downloader with cache support with an UIImageView category
 
@@ -70,12 +70,12 @@ email:coderyi@foxmail.com
 
 Objective-C的国内程序员排名示例
 
-![monkey](http://7u2k5i.com1.z0.glb.clouddn.com/monkey_5s2.png?imageMogr2/thumbnail/!40p) 
+![monkey](https://raw.githubusercontent.com/coderyi/MonkeyForMac/master/Documents/images/1.png) 
 
 
 
 Objective-C的世界范围内仓库排名示例
 
-![monkey](http://7u2k5i.com1.z0.glb.clouddn.com/monkey_5s5.png?imageMogr2/thumbnail/!40p) 
+![monkey](https://raw.githubusercontent.com/coderyi/MonkeyForMac/master/Documents/images/2.png) 
 
 [Knockin' On Heaven's Door-Guns N' Roses-网易云音乐](http://music.163.com/#/song?id=18095057)
