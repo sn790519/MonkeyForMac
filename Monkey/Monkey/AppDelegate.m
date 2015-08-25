@@ -27,7 +27,13 @@
     self.apiEngine=[[YiNetworkEngine alloc] initWithDefaultSet];
 
 }
-
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)theApplication hasVisibleWindows:(BOOL)flag {
+    if (!mainWindow) {
+        mainWindow=[[MainWindowController alloc] initWithWindowNibName:@"MainWindowController"];
+    }
+    [mainWindow showWindow:self];
+    return YES;
+}
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }

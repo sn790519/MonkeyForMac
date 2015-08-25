@@ -13,7 +13,7 @@ Monekey iOS GitHub开源地址:[https://github.com/coderyi/MonkeyForMac](https:/
 
 
 ##Monkey for GitHub
-目前App Store的版本是0.9.1
+
 
 Monkey是一个GitHub第三方客户端，Monkey取名就是表示我们程序猿的意思。
 
@@ -28,7 +28,7 @@ Monkey主要是用来展示GitHub上的开发者的排名，以及仓库的排�
 
 ##关于开源
 ####运行
-支持Mac OS X 10.10.1；目前我使用的是Xcode6.3
+支持Mac OS X 10.10+；目前我使用的是Xcode6.3
 
 
 
